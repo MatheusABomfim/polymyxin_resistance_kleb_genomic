@@ -12,3 +12,4 @@ venv/
 *.docx~
 .~lock*
 .gitignore
+*._*
