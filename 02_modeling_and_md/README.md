@@ -32,7 +32,7 @@ For all structural evaluations, the wild-type (WT) structure of each protein was
 ## Structure
 ```
 02_modeling_and_md/
-├── md_outputs/             # Raw MD trajectories, extracted frames, APBS grids, and XVG analyses files
+├── md_outputs/             # XVG analyses, contact maps, structures (large APBS grids and MD snapshots excluded; see md_outputs/README.md)
 │   ├── mgrb/               # MD outputs for MgrB (WT and 5D3D)
 │   ├── phop/               # MD outputs for PhoP (WT and 5D3D)
 │   └── ...                 # Subdirectories for PhoQ, PmrA (WT), and PmrB
