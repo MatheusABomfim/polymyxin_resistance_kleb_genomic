@@ -1,29 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Sep 22 14:56:51 2023
-
-@author: joao
-"""
-"""
-rosetta_utils.py
-================
-Utility functions for protein structure modeling with PyRosetta, covering:
-
-  - Pose utilities and PDB/Pose residue index mapping
-  - Relaxation and side-chain packing protocols
-  - Single-point mutation with neighbor repacking
-  - Per-residue and per-term energy decomposition
-  - Binding free energy (dG) calculation
-  - Interface descriptors (interaction energy, CMS, InterfaceAnalyzerMover)
-  - In silico Deep Mutational Scanning (DMS): ΔΔG per energy term, parallel via multiprocessing.Pool
-  - Sequence modeling: load, compare, mutate, and export structures
-  - I/O helpers for JD2-compatible PDB files
-
-Authors: joao
-Last revised: 2026
-"""
-
 # ---------------------------------------------------------------------------
 # Standard library
 # ---------------------------------------------------------------------------
