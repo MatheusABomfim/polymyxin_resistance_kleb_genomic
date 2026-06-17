@@ -8,7 +8,7 @@ This repository contains data, scripts, and results for the genomic and in silic
 ```
 polymyxin_resistance_kleb_genomic/
 ├── 01_provean              # PROVEAN deleterious mutation prediction
-├── 02_modeling_md          # 3D modeling, MD simulations, structural dynamics
+├── 02_modeling_and_md      # 3D modeling, MD simulations, structural dynamics
 ├── 03_resistome            # ABRIcate-based antimicrobial resistance gene screening
 ├── 04_dms_analysis         # Deep mutational scanning (PyRosetta ddG) simulations
 └── README.md               # This file
