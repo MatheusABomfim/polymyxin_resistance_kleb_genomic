@@ -4,7 +4,8 @@
 Assess and characterize the effects of mutations on the protein structure and dynamics of MgrB, PhoP, PhoQ, and PmrB using 3D structural modeling and molecular dynamics simulations.
 
 ## Input
-- PDB files for MgrB, PhoP, PhoQ, and PmrB from WT and 5D3D strains
+- **Protein sequences**: FASTA files containing the amino acid sequences of MgrB, PhoP, PhoQ, and PmrB from both the WT reference and the 5D3D mutant strain.
+- **3D structures**: PDB files predicted by AlphaFold 3 for the WT and 5D3D variants, serving as the starting coordinates for the molecular dynamics simulations.
 
 ## Strain Selection (5D3D)
 Among the five polymyxin B-resistant isolates (MIC > 64 µg/mL), strain 5D3D was selected for structural modeling and MD analyses based on:
