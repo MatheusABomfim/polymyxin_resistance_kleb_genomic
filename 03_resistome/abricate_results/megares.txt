@@ -1,0 +1,8 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+polinny.fa	STRAIN	1	1464	+	PHOR	1-1467/1467	========/======	2/3	99.80	99.66	megares	MEG_5786	Multi-compound:Drug_and_biocide_resistance:Drug_and_biocide_SMR_efflux_regulator:PHOR	
+polinny.fa	STRAIN	1	1466	+	PHOR	1-1467/1467	========/======	1/1	99.93	99.66	megares	MEG_5786	Multi-compound:Drug_and_biocide_resistance:Drug_and_biocide_SMR_efflux_regulator:PHOR	
+polinny.fa	STRAIN	1	1467	+	PHOR	1-1467/1467	===============	0/0	100.00	99.80	megares	MEG_5786	Multi-compound:Drug_and_biocide_resistance:Drug_and_biocide_SMR_efflux_regulator:PHOR	
+polinny.fa	STRAIN	1	1465	+	PHOR	1-1467/1467	========/======	1/2	99.86	99.66	megares	MEG_5786	Multi-compound:Drug_and_biocide_resistance:Drug_and_biocide_SMR_efflux_regulator:PHOR	
+polinny.fa	STRAIN	1	1463	+	PHOR	1-1467/1467	========/======	3/4	99.73	99.59	megares	MEG_5786	Multi-compound:Drug_and_biocide_resistance:Drug_and_biocide_SMR_efflux_regulator:PHOR	
+polinny.fa	STRAIN	122	1010	+	CTX	1-889/889	===============	0/0	100.00	97.41	megares	MEG_2430	Drugs:betalactams:Class_A_betalactamases:CTX	
+polinny.fa	STRAIN	126	1015	+	CTX	1-889/889	========/======	1/1	100.00	97.30	megares	MEG_2430	Drugs:betalactams:Class_A_betalactamases:CTX	

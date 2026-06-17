@@ -1,0 +1,9 @@
+# ABRIcate (tool for antimicrobial resistance gene screening)
+# Requires conda installation:
+#   conda create -n abricate -c conda-forge -c bioconda abricate=1.0.1
+#   conda activate abricate
+#
+# ABRIcate databases are downloaded automatically on first run:
+#   abricate --setupdb
+#
+# Databases used: card, resfinder, ncbi, argannot, megares, vfdb, plasmidfinder
