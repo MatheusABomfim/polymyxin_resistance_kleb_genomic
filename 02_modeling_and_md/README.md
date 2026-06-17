@@ -16,7 +16,7 @@ Among the five polymyxin B-resistant isolates (MIC > 64 µg/mL), strain 5D3D was
 
 For all structural evaluations, the wild-type (WT) structure of each protein was modeled and used as a baseline reference to compare against the mutant variants from the 5D3D strain.
 
-## Three-Dimensional Modeling
+## 3D Modeling
 - **AlphaFold 3** — structural prediction for MgrB, PhoP, PhoQ, PmrB (WT + 5D3D variants) and PmrA (WT-only), totaling 9 models
 - **Model selection** — highest pLDDT (> 90) and lowest PAE (< 5 Å)
 - **Validation** — ProSA (Z-score), PROCHECK (Ramachandran), QMEANDisCo (global quality)
