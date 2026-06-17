@@ -1,10 +1,10 @@
 # 02 — Modeling + MD
 
 ## Purpose
-Identify and characterize mutations in pmrAB, phoPQ, and mgrB genes, perform 3D structural modeling, and conduct molecular dynamics simulations to evaluate the conformational consequences of the genetic alterations.
+Assess and characterize mutations effects on protein structure and dynamics for mgrB, phoP, phoQ, and pmrB, perform 3D structural modeling, and conduct molecular dynamics simulations to evaluate the conformational consequences of the genetic alterations.
 
 ## Input
-- `data/polinny.fa` — pmrAB, phoPQ, mgrB sequences from strains 2D2A, 2D4A.1, 2D4A.2, 2D4B, 5D3D
+- PDB files for mgrB, phoP, phoQ, and pmrB from WT and 5D3D strains
 
 ## Strain Selection (5D3D)
 Among the five polymyxin B-resistant isolates (MIC > 64 µg/mL), strain 5D3D was selected for structural modeling and MD analyses based on:
@@ -26,16 +26,10 @@ Among the five polymyxin B-resistant isolates (MIC > 64 µg/mL), strain 5D3D was
 - **Production** — 100 ns NPT, 2 fs time step, LINCS constraints
 - **Analyses** — RMSD, RMSF, Rg, SASA, H-bonds, electrostatic surface potential (APBS–PDB2PQR)
 
-## Output
-- `results/structures/` — AlphaFold 3 models (PDB format)
-- `results/validation/` — ProSA, PROCHECK, QMEANDisCo reports
-- `results/md/` — GROMACS trajectories and per-residue analyses
-- `results/figures/` — RMSD, RMSF, Rg, SASA, H-bond, ESP plots
-
 ## Structure
 ```
-02_modeling_md/
-├── data/          # Input sequences
-├── scripts/       # Modeling, MD, and analysis scripts
-└── results/       # Models, validation, trajectories, figures
+02_modeling_and_md/
+├── md_outputs/           # Input sequences
+├── md_setup_files/       # Modeling, MD, and analysis scripts
+└── models/               # Models, validation, trajectories, figures
 ```
