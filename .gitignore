@@ -8,3 +8,6 @@ venv/
 *.swp
 *.swo
 *~
+*.docx
+*.docx~
+.~lock*
