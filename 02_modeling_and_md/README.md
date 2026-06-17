@@ -7,7 +7,7 @@ Assess and characterize the effects of mutations on the protein structure and dy
 - **Protein sequences**: FASTA files containing the amino acid sequences of MgrB, PhoP, PhoQ, and PmrB from both the WT reference and the 5D3D mutant strain.
 - **3D structures**: PDB files predicted by AlphaFold 3 for the WT and 5D3D variants, serving as the starting coordinates for the molecular dynamics simulations.
 
-## Strain Selection (5D3D)
+## Strain Selection (5D3D and WT)
 Among the five polymyxin B-resistant isolates (MIC > 64 µg/mL), strain 5D3D was selected for structural modeling and MD analyses based on:
 - Highest mutational load across the regulatory cascade (substitutions and deletions in mgrB, phoP, phoQ, and pmrB)
 - Extensive amino acid deletions in PmrB C-terminus and PhoP N-terminus
