@@ -32,11 +32,14 @@ For all structural evaluations, the wild-type (WT) structure of each protein was
 ## Structure
 ```
 02_modeling_and_md/
-├── md_outputs/                  # XVG files from GROMACS analyses (RMSD, RMSF, Rg, SASA, H-bonds)
-├── md_setup_files/              # Script and MDP parameter files used for GROMACS simulations
-└── models/                      # 3D structures predicted by AlphaFold 3
-    ├── protein_sequences/       # Input FASTA sequences for modeling
-    ├── mgrb_wt/                 # Models and validation for WT MgrB
-    ├── mgrb_5d3d/               # Models and validation for 5D3D MgrB
-    └── ...                      # Additional subdirectories for WT and 5D3D variants of PhoP, PhoQ, PmrA (WT only), and PmrB
+├── md_outputs/             # Raw MD trajectories, extracted frames, APBS grids, and XVG analyses files
+│   ├── mgrb/               # MD outputs for MgrB (WT and 5D3D)
+│   ├── phop/               # MD outputs for PhoP (WT and 5D3D)
+│   └── ...                 # Subdirectories for PhoQ, PmrA (WT), and PmrB
+├── md_setup_files/         # MDP configuration files and GROMACS execution scripts
+└── models/                 # 3D structures predicted by AlphaFold 3
+    ├── protein_sequences/  # Input FASTA sequences for modeling
+    ├── mgrb_wt/            # Models and validation for WT MgrB
+    ├── mgrb_5d3d/          # Models and validation for 5D3D MgrB
+    └── ...                 # Additional subdirectories for WT and 5D3D variants of PhoP, PhoQ, PmrA (WT only), and PmrB
 ```

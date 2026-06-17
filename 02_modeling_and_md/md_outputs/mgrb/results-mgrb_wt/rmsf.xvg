@@ -1,0 +1,42 @@
+# This file was created Sat Aug  9 13:41:37 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2023.2 (-:
+# 
+# Executable:   /scratch/app_sequana/gromacs/2023.2_openmpi-4.1.4+cuda_gnu/bin/gmx_mpi
+# Data prefix:  /scratch/app_sequana/gromacs/2023.2_openmpi-4.1.4+cuda_gnu
+# Working dir:  /scratch/rdap/madson.aragao3/mut-bac/mgrb_ref
+# Command line:
+#   gmx_mpi rmsf -f md_0_1noPBC.trr -s md_0_1.tpr -oq bfactor.pdb -ox bfactor_average.pdb -res
+# gmx rmsf is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.2860
+    2   0.2107
+    3   0.2152
+    4   0.1736
+    5   0.1593
+    6   0.1205
+    7   0.1905
+    8   0.2123
+    9   0.1912
+   10   0.2945
+   11   0.3341
+   12   0.2391
+   13   0.1754
+   14   0.3201
+   15   0.2896
+   16   0.2659
+   17   0.1539
+   18   0.2906
+   19   0.3736
+   20   0.4138
+   21   0.5127
+   22   0.4973
+   23   0.3623
+   24   0.4294
+   25   0.7036

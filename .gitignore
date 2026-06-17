@@ -12,5 +12,10 @@ venv/
 *.docx~
 .~lock*
 *._*
+._*
 *filme.pdb
-venv/
+
+# MD large outputs (regenerable / exceed GitHub size limits)
+*.dx
+*.tga
+md_0_1-run.part*.gro

@@ -11,6 +11,7 @@ polymyxin_resistance_kleb_genomic/
 ├── 02_modeling_and_md      # 3D modeling, MD simulations, structural dynamics
 ├── 03_resistome            # ABRIcate-based antimicrobial resistance gene screening
 ├── 04_dms_analysis         # Deep mutational scanning (PyRosetta ddG) simulations
+├── 05_alignments           # Nucleotide and protein MSA figures (MEGA + Jalview)
 └── README.md               # This file
 ```
 
@@ -19,3 +20,4 @@ polymyxin_resistance_kleb_genomic/
 2. **Modeling + MD** — Strain selection (5D3D), AlphaFold 3 modeling, GROMACS MD simulations, comparative structural dynamics
 3. **Resistome** — Homology-based resistome screening via ABRIcate
 4. **DMS in silico** — PyRosetta-based Cartesian ΔΔG scanning
+5. **Alignments** — Nucleotide and protein MSA of pmrAB, phoPQ, mgrB across strains (MEGA + Jalview)
