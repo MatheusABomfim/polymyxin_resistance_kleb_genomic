@@ -12,3 +12,4 @@ venv/
 *.docx~
 .~lock*
 *._*
+*filme.pdb
