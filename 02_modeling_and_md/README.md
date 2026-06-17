@@ -34,5 +34,5 @@ For all structural evaluations, the wild-type (WT) structure of each protein was
 02_modeling_and_md/
 ├── md_outputs/           # XVG files from GROMACS analyses (RMSD, RMSF, Rg, SASA, H-bonds)
 ├── md_setup_files/       # MDP files used for GROMACS simulations
-└── models/               # Models in PDB format
+└── models/               # Models in CIF/PDB format
 ```
