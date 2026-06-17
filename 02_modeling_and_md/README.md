@@ -1,4 +1,4 @@
-# 02 — Modeling + MD
+# 02 — Modeling & MD
 
 ## Purpose
 Assess and characterize the effects of mutations on the protein structure and dynamics of MgrB, PhoP, PhoQ, and PmrB using 3D structural modeling and molecular dynamics simulations.
