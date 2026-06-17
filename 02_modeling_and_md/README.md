@@ -32,7 +32,7 @@ For all structural evaluations, the wild-type (WT) structure of each protein was
 ## Structure
 ```
 02_modeling_and_md/
-├── md_outputs/             # XVG analyses, contact maps, structures (large APBS grids and MD snapshots excluded; see md_outputs/README.md)
+├── md_outputs/             # XVG analyses, contact maps, structures (large APBS grids and MD snapshots excluded; see Data availability)
 │   ├── mgrb/               # MD outputs for MgrB (WT and 5D3D)
 │   ├── phop/               # MD outputs for PhoP (WT and 5D3D)
 │   └── ...                 # Subdirectories for PhoQ, PmrA (WT), and PmrB
@@ -43,3 +43,12 @@ For all structural evaluations, the wild-type (WT) structure of each protein was
     ├── mgrb_5d3d/          # Models and validation for 5D3D MgrB
     └── ...                 # Additional subdirectories for WT and 5D3D variants of PhoP, PhoQ, PmrA (WT only), and PmrB
 ```
+
+## Data availability
+The following large MD output files were excluded from version control because they exceed GitHub size limits (individual files up to 133 MB, ~970 MB total):
+
+- `*.dx` — APBS electrostatic potential grids (588 MB)
+- `*.tga` — raw electrostatic surface renders (184 MB); compressed JPG equivalents are kept where available
+- `md_0_1-run.part*.gro` — final MD production snapshots (196 MB), regenerable from the simulation setup in `md_setup_files/`
+
+These files are available on request from the authors at any time. The `md_outputs/` tree retains the XVG analyses (RMSD, RMSF, Rg, SASA, H-bonds), contact maps (JPG), PDB/PQR structures, and EPS/XPM plots.
